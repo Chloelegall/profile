@@ -1,0 +1,141 @@
+body {
+    background: #FFFFFF;
+    display: block;
+    margin: 8px;
+    line-height: 1.5;
+    color: #302E2C
+  }
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #302E2C
+    line-height: 1;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    line-height: 1;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #302E2C
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #A5A5A5;
+    font-weight: lighter;
+    display: block;
+    margin-bottom: 50px;
+}
+
+div {
+  display: block;
+}
+
+ul {
+  display: block;
+}
+
+.profile {
+  object-fit: cover;
+  width: 40%;
+  height: 40%;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.article {
+  object-fit: cover;
+  width: 30%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-white {
+  border: 2px solid #302E2C;
+  padding: 8px 16px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #302E2C;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.container {
+  margin: 80px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 80px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  margin: 10px;
+}
+
+.description {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  padding-left: 20px;
+  flex-flow: column nowrap;
+  text-align: left;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 960px) {
+  .flexbox {
+  display: block;
+  padding-bottom: 40px;
+  }
+  .article {
+    width: 80%;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .profile {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .flexbox {
+  display: block;
+  padding-bottom: 40px;
+  }
+  .article {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .profile {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+
